@@ -16,7 +16,7 @@ body, html {
 figure {
     width: 450px;
     height: 300px;
-    border: 1px grey solid;
+    border: 2px grey solid;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,9 @@ figure {
 header {
     height: 125px;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     align-items: center;
 
@@ -46,16 +49,14 @@ footer {
 h1 {
     font-size: 2rem;
     font-weight: 300;
-    line-height: 0%;
-    position: relative;
-    top: -30px;
+    line-height: 60%;
+    margin: 0px;
 }
 h2 {
     font-size: .6rem;
     font-weight: 200;
-    line-height: 0%;
-    position: relative;
-    top: -70px;
+    line-height: 50%;
+    margin: 0px;
 
 }
 h3 {
