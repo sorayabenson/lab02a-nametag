@@ -8,20 +8,46 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
     </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <figure class="name-tag">
+    <figure id="nameTag" class="name-tag">
         <header>
             <h1>سلام</h1>
             <h2>اسم من است</h2>
         </header>
         <main class="your-name-here">
-            <h3>ثریا</h3>
+            <h3 id="name">ثریا</h3>
         </main>
         <footer>
 
         </footer>
     </figure>
-    
+    <div class="input">
+        <input id="yourNamehere" type="text" placeholder="اسم شما بنوسید">
+        <button id="Click" class="click">کلیک</button>
+        <section class="font-type">
+            <button id="fontType1" class="font-type-1">خانواده حروف</button>
+            <button id="fontType2" class="font-type-2">خانواده حروف</button>
+            <button id="fontType3" class="font-type-3">خانواده حروف</button>
+
+        </section>
+        <section class="color-button">
+            <button id="colorButton1" class="color-button-1">سبز</button>
+            <button id="colorButton2" class="color-button-2">زرد</button>
+            <button id="colorButton3" class="color-button-3">صورتی</button>
+
+        </section>
+        <h6 id="clickCounter"></h6>
+
+
+    </div>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
